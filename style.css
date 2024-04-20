@@ -1,0 +1,163 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: #000321;
+}
+
+.bg-image {
+    background: url('images/background.png') no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    margin: 0;
+}
+
+.main {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%; 
+    text-align: center;
+    border-radius: 25px;
+    background-size: cover;
+}
+
+.inner {
+    border: 1px solid #e7b7d9;
+    background-color: #806f80;
+    box-shadow: 0 0 10px rgba(48, 51, 66, 0.5); 
+    width: 50%;
+    padding: 5%; 
+    max-width: 100%;
+    margin: 0 auto; 
+    border-radius: 30px;
+    opacity: 0.85;
+}
+
+
+.container{
+    position: relative;
+    color: #ffffff;
+    
+}
+
+.frame{
+    display: inline-block;
+    width: 10.5rem;
+    height: 10.5rem;
+    border-radius: 50%;
+    border-color: #fffff1;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.logo{
+    width: 10rem;
+    padding: 0.25rem;
+    border-radius: 50%;
+}
+
+h1{
+    color: #fddefc;
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+p{
+    color: #FFFFFF96;
+}
+b{
+  color: #ffffff;
+  font-weight: 500;
+}
+
+
+.buttons{
+    cursor: default;
+    display: inline-block;
+    padding: 0;
+    gap: 0.75rem;
+    line-height: 3rem;
+}
+.buttons i{
+    line-height: 3rem;
+}
+
+.buttons button{
+    display: inline-flex;
+    color: #ffffff;
+    gap: 0.75rem;
+height: 3rem;
+line-height: 3rem;
+padding: 0 1.5rem;
+vertical-align: middle;
+font-family: inherit;
+font-size: 1em;
+font-weight: 400;
+border-radius: 5rem;
+border: 0;
+transition: 0.4s;
+}
+
+.aboutme{
+    background-color: #add1fa;
+}
+
+.aboutme:hover{
+    background-color: #8ca9ca;
+    cursor: pointer;
+}
+
+.mysocials{
+    background-color: #e4a9a9;
+}
+
+.mysocials:hover{
+    background-color: #d38d8d;
+    cursor: pointer;
+}
+
+.projects{
+    background-color: #000000;
+}
+
+.projects:hover{
+    background-color: #4D4D4D;
+    cursor: pointer;
+}
+
+hr {
+    color: hsl(318, 92%, 86%);
+}
+#footer{
+    color: #c793bb;
+    font-size: small;
+}
+
+@media(max-width: 600px){
+    .main{
+       width: 100%;
+       left: 5px;
+    }
+    .frame{
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0
+    }
+    .logo{
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    h2{
+        font-size: large;
+    }
+    p{
+        font-size: large;
+    }
+}
